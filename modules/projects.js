@@ -28,7 +28,7 @@ function initializeProjects() {
 // Testing if the projects are set up correctly
 initializeProjects()
     .then(() => {
-        console.log("Projects have been successfully initialized:", projects);
+        console.log("Projects have been successfully initialized:",projects);
     })
     .catch((error) => {
         console.error("Error initializing projects:", error);
