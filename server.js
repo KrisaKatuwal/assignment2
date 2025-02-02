@@ -1,3 +1,15 @@
+/********************************************************************************
+*  WEB322 – Assignment 02
+* 
+*  I declare that this assignment is my own work in accordance with Seneca's
+*  Academic Integrity Policy:
+* 
+*  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+* 
+*  Name: Krisha Katuwal Student ID: 104292230 Date: 2025-02-02
+*
+********************************************************************************/
+
 //importing the express module
 const express=require('express');
 // importing project data as we get functions for our project from here.
