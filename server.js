@@ -55,8 +55,8 @@ app.get('/solutions/projects/id-demo', (req, res) => {
     projectData.getProjectById(18)  // Looks for the project with ID 18
       .then(project => {
         res.json({
-          studentName: 'Your Name',
-          studentId: 'Your Student ID',
+          studentName: 'Krisha Katuwal',
+          studentId: '104292230',
           timestamp: new Date(),
           project: project  // Sends the details of the project as a response
         });
