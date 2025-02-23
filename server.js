@@ -72,8 +72,8 @@ app.get('/solutions/projects/id-demo', (req, res) => {
     projectData.getProjectsBySector('ind')  // Looks for projects in the 'Industry' sector (using 'ind')
       .then(projects => {
         res.json({
-          studentName: 'Your Name',
-          studentId: 'Your Student ID',
+          studentName: 'Krisha Katuwal',
+          studentId: '104292230',
           timestamp: new Date(),
           projects: projects  // Returns the array of projects in that sector
         });
